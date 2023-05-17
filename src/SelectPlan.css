@@ -1,0 +1,99 @@
+div.child1{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+div.child2{
+    padding-top: 15px;
+    float: left;
+    width: 80%;
+    
+}
+div.child3{
+    float: left;
+    width: 20%;
+    /* text-align: end; */
+}
+
+.button1{
+    width: 30px;
+    height: 30px;
+    background-color:#0096FF ;
+    border-radius: 50%;
+    color:white
+}
+
+legend {
+   
+    overflow: hidden;
+    /* background-color: #F77171; */
+    color: white;
+    text-align: end;
+    padding: 5px 10px;
+  }
+  fieldset{
+    border:3px solid #BEBEBE;
+  }
+  .offerExpire{
+    margin-top: -10px;
+    margin-left: 23px;
+    display: flex;
+    border:rgb(247, 113, 113) ;
+    background-color: rgb(247, 113, 113);
+    border-radius: 8px;
+    min-width: 162px;
+   
+  }
+  .recomended{
+    margin-top: -10px;
+    margin-left: 23px;
+    display: flex;
+    border: #47BA68;
+    background-color: #47BA68;
+    border-radius: 8px;
+    min-width: 162px;
+  }
+  img{
+    /* filter: grayscale(100%); */
+  }
+  div.child4{
+    float: left;
+  }
+
+  .LimitedTime{
+    border-color: linear-gradient(to left,#DE4313,#FEC163);
+    background: #fdd6d6;
+    border-color: #DE4313;
+  }
+
+  .Cancelbottom{
+    min-width: 95%;
+    min-height: 70px;
+    border:3px solid #DE4313;
+    color:#DE4313;
+    font-weight: bold;
+  }
+
+  .Proceedbottom{
+    font-weight: bold;
+    min-width: 95%;
+    min-height: 70px;
+    background-color:#47BA68;
+    color:white;
+    border:3px solid #47BA68; 
+  }
+
+  .Razarpay{
+    margin-top: 30px;
+    min-height: 60px;
+    min-width: 250px;
+    margin-left: 15px;
+  }
+  input[type=radio]:checked{
+    
+    accent-color: #47BA68;
+  }
+  input[type=radio]{
+    min-height: 21px;
+    min-width: 52px;
+  }

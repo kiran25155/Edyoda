@@ -1,0 +1,70 @@
+.container {
+    height: 60px;
+    display: flex;
+    background-color: #FFFF;
+    }
+    .container div{
+    padding-top: 16px;
+    flex-basis: 100%;
+    }
+    .flex-item{
+    text-align: center;
+    font-size: 15px;
+    }
+    .container div:nth-of-type(1) {
+        background: -webkit-linear-gradient(#0096FF,#0048FF);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    margin-top: -5px;    
+    font-weight: bold;
+    font-size: 25px;  
+    /* flex-basis: 3000px; */
+    }
+    .container div:nth-of-type(2) {
+        flex-basis: auto;
+       }
+    .container div:nth-of-type(3) {
+     margin-left: 5px;
+     flex-basis: 20px;
+   }
+    .container div:nth-of-type(4) {
+        margin-left: 79px;
+        flex-basis: auto;
+        }
+    .container div:nth-of-type(5) {
+        margin-left: 5px;
+        flex-basis: 20px;
+    }
+    .container div:nth-of-type(6) {
+      /* flex-basis: 7000px; */
+    }
+    .container div:nth-of-type(7) {
+      
+        flex-basis:auto;
+        margin-right: 70px;
+     }
+     .container div:nth-of-type(8) {
+        flex-basis:auto;
+        margin-right: 100px;
+     }
+     .container div:nth-of-type(9) {
+        margin-top: -5px;
+       margin-right: 100px;
+      
+     }
+    .DownArrow{
+        max-height: 10px;
+        max-width: 20px;
+    }
+.joinNow{
+    background: linear-gradient(to left,#0048FF,#0096FF);
+    color:white;
+    border-radius: 38%;
+    min-height: 39px;
+    min-width: 186px;
+    font-weight: bold;
+    
+}
+*{
+    font-size: x-large;
+}

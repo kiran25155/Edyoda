@@ -1,7 +1,13 @@
-.App {
-  text-align: center;
+div.body{
+  float: left;
+  width: 60%;
 }
-
+ 
+div.selectPlan{
+  float: left;
+  width: 40%;
+  max-height:70%
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +20,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1E1E1E;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
